@@ -85,7 +85,7 @@
   max-width: 600px;
 }
 .hero-image-container {
-  background-image: url(../image/errr.jpg);
+  background-image: url(image/errr.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
