@@ -1,0 +1,107 @@
+.tutor-section {
+  background-color: #eeeeee;
+}
+.tutor-section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.tutor-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tutor-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px #0000001a;
+}
+
+.tutor-serial h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #f5581a;
+}
+
+.tutor-description p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #555555;
+}
+
+.tutor-about {
+  width: 40%;
+  color: #656565;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tutor-about-img {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+}
+.tutor-about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tutor-about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.tutor-about-content h2 {
+  font-size: 2rem;
+}
+
+.tutor-about-content p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.primary-btn {
+  background-color: #f5581a;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.primary-btn:hover {
+  background-color: #3e3e3e;
+}
+
+@media (max-width: 768px) {
+  .tutor-section-wrapper {
+    flex-direction: column;
+  }
+
+  .tutor-content,
+  .tutor-about {
+    width: 100%;
+  }
+  .tutor-about-content {
+    align-items: center;
+  }
+}
